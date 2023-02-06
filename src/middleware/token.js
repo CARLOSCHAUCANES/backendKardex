@@ -18,7 +18,7 @@ verifyToken =async (req,res,next)=>{
         next();
         }
         catch(err){
-            return res.status(403).json(RESPONSE(CONFIG.CODES.C403,{},CONFIGUSER.UNAUTHORIZED)); 
+            return res.status(401).json(RESPONSE(CONFIG.CODES.C401,{},CONFIGUSER.UNAUTHORIZED)); 
         }
 }
 

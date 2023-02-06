@@ -27,7 +27,8 @@ const userSchema = new Schema({
     password:{
         type:String,
         required:true
-    }
+    },
+    profile:{type:Schema.Types.ObjectId,ref:'Profile'}
 },{
     timestamps:true,
     versionKey:false

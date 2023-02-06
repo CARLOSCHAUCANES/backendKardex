@@ -2,7 +2,7 @@
 const CONFIG = {
     PORT:3000,
     SECRETKEYTOKEN:'secretkey',
-    TIMEEXPIRETOKEN:'120s',
+    TIMEEXPIRETOKEN:'3600s',
     NUMBERSALTSENCRYP:10,
     CODES:{   
         C200:200,
